@@ -1,11 +1,11 @@
 {
 	"name": "Reverse Proxy",
-	"description": "Spin up a reverse proxy quickly on Heroku",
+	"description": "Encienda un proxy inverso rápidamente en Heroku",
 	"keywords": [
 		"reverse proxy",
 		"nginx"
 	],
-	"repository": "https://github.com/octoberswimmer/heroku-reverse-proxy",
+	"repository": "https://github.com/audiopsicotiko/proxy-reverso-nginx-heroku",
 	"buildpacks": [
 		{
 			"url": "http://github.com/octoberswimmer/heroku-buildpack-nginx.git"
@@ -13,7 +13,7 @@
 	],
 	"env": {
 		"UPSTREAM_SERVER": {
-			"description": "URL of upstream server to which all requests should be proxied"
+			"description": "URL del servidor ascendente al que se deben enviar todas las solicitudes incluya http o https"
 		}
 	},
 	"stack": "heroku-18"
